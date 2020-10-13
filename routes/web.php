@@ -38,6 +38,13 @@ Route::post('/counter-classic', function (Request $request) {
     return redirect(url('counter-classic', [$count]));
 });
 
+# Example #2: Counter Livewire
+//////////////////////////////////////////////////////////////////////////
+
+Route::get('/counter-livewire', function () {
+    return view('counter-livewire');
+});
+
 //////////////////////////////////////////////////////////////////////////
 
 Auth::routes();
