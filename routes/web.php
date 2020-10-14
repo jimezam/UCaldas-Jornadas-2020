@@ -45,6 +45,13 @@ Route::get('/counter-livewire', function () {
     return view('counter-livewire');
 });
 
+# Example #3: ToDo Livewire
+//////////////////////////////////////////////////////////////////////////
+
+Route::get('/todo-livewire', function () {
+    return view('todo-livewire');
+});
+
 //////////////////////////////////////////////////////////////////////////
 
 Auth::routes();
